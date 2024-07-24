@@ -1,23 +1,23 @@
 # Project 0
 
-Ejercicio integrador de los conceptos vistos sobre HTML5 y CSS3.
+Integrating exercise of the concepts seen about HTML5 and CSS3.
 
-## Parte 1
+## Part 1
 
-### Fecha de entrega (Parte 1)
+### Delivery date (Part 1)
 
-21/23 de Marzo, dependiendo en qué grupo estés.
+March 21/23, depending on which group you are in.
 
-### Consigna
+### Instruction
 
-1. Dividirse en grupos de 2 estudiantes. 
-2. Cada grupo tendrá que maquetar un artículo de una noticia (como si se tratase de la página de un diario online), creando su contenido (título, párrafo, imágenes, etc) en base a 3 palabras *aleatorias* que les serán asignadas. 
-3. Investigar en [MDN](https://developer.mozilla.org/en-US/) sobre las etiquetas que no conozcan.
-4. El documento **debe** que incluir las etiquetas que figuran en la [estructura](#estructura-del-sitio) que se encuentra debajo.
-5. Se recomienda inspirarse y sacar ideas de sitios de noticias y artículos reales, por ejemplo [este](https://www.lanacion.com.ar/buenos-aires/los-portenos-eligieron-luccianos-como-mejor-heladeria-nid2229133).
-6. Para realizar este ejercicio, tendrán que [forkear](https://help.github.com/en/articles/fork-a-repo) este repositorio y en *su nueva copia*, agregar un archivo `index.html` que contenga la solución.
+1. Divide into groups of 2 students.
+2. Each group will have to layout a news article (as if it were the page of an online newspaper), creating its content (title, paragraph, images, etc.) based on 3 *random* words that will be assigned to them. .
+3. Research [MDN](https://developer.mozilla.org/en-US/) about tags you don't know about.
+4. The document **must** include the tags listed in the [structure](#site-structure) below.
+5. It is recommended to get inspiration and get ideas from news sites and real articles, for example [this](https://www.lanacion.com.ar/buenos-aires/los-portenos-eligieron-luccianos-como-mejor- ice cream shop-nid2229133).
+6. To perform this exercise, you will have to [fork](https://help.github.com/en/articles/fork-a-repo) this repository and in *your new copy*, add an `index.html file ` containing the solution.
 
-### Estructura del sitio
+### Site structure
 
 ```
 header
@@ -42,51 +42,50 @@ footer
     a [9]
 ```
 
-[1]: Título del diario.  
-[2]: Lista de tematicas/secciones. Acá marcamos en negrita (y en otro color) la que corresponda, es decir, la actual donde estamos ahora.  
-[3]: Título de la noticia.  
-[4]: Imagen relacionada a la noticia. Debe tener los atributos `src` y `alt`!  
-[5]: Texto con el contenido de la noticia. Debe tener links (absolutos o relativos) en alguna parte del texto para leer más sobre algún tema.  
-[6]: Imagen de publicidad/spam, preferentemente relacionada al contenido de la noticia.  
-[7]: Texto de Copyright.  
-[8]: Link absoluto hacia algún sitio externo.  
-[9]: Link que nos lleve hacia el header del diario (usar `id=header` para identificarlo).  
+[1]: Title of the diary.
+[2]: List of topics/sections. Here we mark in bold (and in another color) the corresponding one, that is, the current one where we are now.
+[3]: Title of the news.
+[4]: Image related to the news. It must have the `src` and `alt` attributes!
+[5]: Text with the content of the news. It must have links (absolute or relative) somewhere in the text to read more about a topic.
+[6]: Advertising/spam image, preferably related to the content of the news.
+[7]: Copyright Text.
+[8]: Absolute link to some external site.
+[9]: Link that takes us to the header of the journal (use `id=header` to identify it).
 
 ---
 
-## Parte 2
+## Part 2
 
-### Fecha de entrega (Parte 2)
+### Delivery date (Part 2)
 
-28/30 de Marzo, dependiendo en qué grupo estés.
+March 28/30, depending on which group you are in.
 
-### Consigna
+### Instruction
 
-Para esta 2da parte, vamos a comenzar a aplicar estilos a nuestro sitio y hacer algunas modificaciones a nuestro documento. Al final se incluye una imagen de referencia para visualizar mejor las modificaciones.
+For this 2nd part, we are going to start applying styles to our site and make some modifications to our document. At the end a reference image is included to better visualize the modifications.
 
-#### Importante
+#### Important
 
-- Esta 2da parte **NO** incluye modificaciones del CSS correspondiente al *layout* del contenido (los elementos en bloque seguirán quedando uno debajo del otro), eso quedará para la 3ra. parte del proyecto.
-- El proyecto debe resolverse con el mismo grupo con el que hiciste la 1er parte del mismo.
-- Utilizar **Git y GitHub** para colaborar y trabajar en conjunto.
-- Ambos miembros del equipo deben presentar **el mismo proyecto**, no 2 versiones individuales.
-- Se va a evaluar la **reutilización de estilos en CSS**. También que, preferentemente se utilicen selectores de clase sobre cualquier otro.
+- This 2nd part **DOES NOT** include modifications to the CSS corresponding to the *layout* of the content (the block elements will continue to remain one below the other), that will be left for the 3rd. part of the project.
+- The project must be solved with the same group with which you did the 1st part of it.
+- Use **Git and GitHub** to collaborate and work together.
+- Both team members must present **the same project**, not 2 individual versions.
+- **Reuse of styles in CSS** will be evaluated. Also, preferably class selectors are used over any other.
 
-#### Estilos CSS
+#### CSS Styles
 
-1. *Aplanar* lista de temáticas/secciones, es decir, que la lista se vea horizontal, con los ítems uno al lado del otro.
-2. Sacarle los bullets/viñetas a la lista de temáticas/secciones.
-3. Definir un tamaño base para la fuente de nuestro documento en `18px`.
-4. Definir un tamaño relativo para los `h1` que sea 2.25 veces más grande que el tamaño base.
-5. Definir un tamaño relativo para los `h2` que sea 1.75 veces más grande que el tamaño base.
-6. Definir un tamaño relativo para los `h3` que sea 1.4 veces más grande que el tamaño base.
-7. Definir el color `#fafafa` como color de fondo de nuestro sitio.
-8. Definir el color `#24292e` como color para el texto de nuestro sitio (`h1`, `h2`, `h3` y `p`).
+1. *Flatten* list of topics/sections, that is, make the list look horizontal, with the items next to each other.
+2. Remove the bullets/vignettes from the list of topics/sections.
+3. Define a base size for the font of our document at `18px`.
+4. Define a relative size for the `h1` that is 2.25 times larger than the base size.
+5. Define a relative size for the `h2` that is 1.75 times larger than the base size.
+6. Define a relative size for the `h3` that is 1.4 times larger than the base size.
+7. Define the color `#fafafa` as the background color of our site.
+8. Define the color `#24292e` as the color for the text of our site (`h1`, `h2`, `h3` and `p`).
 
-#### Cambios en el HTML
+#### HTML changes
 
-La estructura de nuestro sitio va a modificarse ligeramente y quedar de esta forma
-
+The structure of our site is going to be slightly modified and look like this
 ```
 header
     p
@@ -130,36 +129,36 @@ footer
     p
 ```
 
-1. Agregar una nueva section [11] que contiene lo siguiente: 2 `articles`, correspondientes a 2 noticias recomendadas (no necesariamente relacionadas a la que estamos leyendo), con sus correspondientes títulos (`h3`) e imágenes descriptivas.
-2. Agregarle un `h3` al `aside` que contiene la publicidad, con el texto `PUBLICIDAD` [12].
-3. La noticia debe contener **al menos 3 párrafos** [10].
-4. Agregar un `p` con un margen inferior de `30px`antes del primer párrafo de la noticia, en color `#808080` y tamaño `0.75` (respecto del tamaño base), que contenga el texto `<FECHA> - <HORA>`, ejemplo `23 de Marzo de 2019 - 12:36`.
-5. Agregar una 2da imagen (con su correspondiente caption) relacionada a la noticia.
-6. Agregar un `p`[16] al final del texto de la noticia, con un margen superior de `25px`, que contenga el texto "Por:" seguido de links absolutos a los perfiles de GitHub de lxs autores del proyecto (Por: [repo-user-1](#) - [repo-user-2](#)).
-7. Agregar un `hr` [15] antes del `footer`, con un margen superior de `45px`y los siguientes estilos: `border: 0.5px solid #808080;`, ancho del 80% y opacidad `0.3`. 
-8. Modificar el `footer` para que quede similar al de la imagen de referencia (ver abajo): un `p` con el texto Código fuente: [repo-1](#) | [repo-2](#), que linkee a los repositorios del sitio de cada autor del proyecto, el link de Volver al inicio debajo (ver siguiente ítem) y el texto de copyright centrado, entre ambos links.
-9. El link restante del `footer` [14] debe continuar siendo un link con el texto "Volver al inicio", que nos lleve hacia el `header`del sitio.
+1. Add a new section [11] that contains the following: 2 `articles`, corresponding to 2 recommended news items (not necessarily related to the one we are reading), with their corresponding titles (`h3`) and descriptive images.
+2. Add an `h3` to the `aside` that contains the advertising, with the text `ADVERTISING` [12].
+3. The news must contain **at least 3 paragraphs** [10].
+4. Add a `p` with a lower margin of `30px` before the first paragraph of the news, in color `#808080` and size `0.75` (relative to the base size), containing the text `<DATE> - <TIME>`, example `March 23, 2019 - 12:36`.
+5. Add a 2nd image (with its corresponding caption) related to the news.
+6. Add a `p`[16] at the end of the news text, with an upper margin of `25px`, containing the text "By:" followed by absolute links to the GitHub profiles of the project authors ( By: [repo-user-1](#) - [repo-user-2](#)).
+7. Add an `hr` [15] before the `footer`, with a top margin of `45px` and the following styles: `border: 0.5px solid #808080;`, width of 80% and opacity `0.3`.
+8. Modify the `footer` so that it is similar to the reference image (see below): a `p` with the text Source code: [repo-1](#) | [repo-2](#), which links to the repositories of the site of each author of the project, the Return to the beginning link below (see next item) and the copyright text centered, between both links.
+9. The remaining link of the `footer` [14] must continue to be a link with the text "Back to top", which takes us to the `header` of the site.
 
-#### Imagen de referencia
+#### Reference image
 
 ![](https://i.imgur.com/f5OIzcq.jpg)
 
 ---
 
-## Parte 3
+## Part 3
 
-### Fecha de entrega (Parte 3)
+### Delivery date (Part 3)
 
-11/13 de Abril, dependiendo en qué grupo estés.
+April 11/13, depending on which group you are in.
 
-#### Estilos CSS
+#### CSS Styles
 
-1. Definir alguna tipografía distinta a la default para los `p`. Esta fuente debe ser [safe web](http://web.mit.edu/jmorzins/www/fonts.html) para asegurarnos compatibilidad independientemente del sistema operativo del usuario.
-2. Elegir alguna fuente de [Google Fonts](http://fonts.google.com) para los `h1` y usarla con el `font-weight` correspondiente a `bold`.
-3. Elegir otra fuente de [Google Fonts](http://fonts.google.com) para los `h2` y `h3`. Usarla con el `font-weight` correspondiente a `bold` (`h1`, `h2/h3` y `p`deben tener tipografías distintas).
-4. Transformar los `h3` para que siempre se vean en mayúsculas.
-5. Agregarle los estilos correspondientes a todas las imágenes del sitio para que sean *responsive*. **Pista:** alcanza con modificar ancho y alto de las mismas.
-6. Modificar el estilo de los links (anchors) de nuestra página, para que no tengan subrayado y su color sea `#0074c4`.
-7. Modificar el estilo de los links (anchors) de nuestra página, para que tengan el color `##0098ff`y subrayado al hacer *hover* sobre los mismos.
-8. Flotar las secciones de publicidad y noticias recomendadas a la derecha para que se vean como en la imagen de referencia.
-9. Dejar un margen de `24px`entre las secciones de publicidad y noticias recomendadas y el `article` correspondiente a la noticia.
+1. Define some font other than the default for the `p`. This font must be [safe web](http://web.mit.edu/jmorzins/www/fonts.html) to ensure compatibility regardless of the user's operating system.
+2. Choose a font from [Google Fonts](http://fonts.google.com) for the `h1` and use it with the `font-weight` corresponding to `bold`.
+3. Choose another font from [Google Fonts](http://fonts.google.com) for the `h2` and `h3`. Use it with the `font-weight` corresponding to `bold` (`h1`, `h2/h3` and `p` must have different fonts).
+4. Transform the `h3` so that they are always seen in uppercase.
+5. Add the corresponding styles to all the images on the site so that they are *responsive*. **Hint:** It is enough to modify their width and height.
+6. Modify the style of the links (anchors) on our page, so that they do not have underlining and their color is `#0074c4`.
+7. Modify the style of the links (anchors) on our page, so that they have the color `##0098ff` and underlined when you *hover* over them.
+8. Float the recommended advertising and news sections to the right so they look like the reference image.
+9. Leave a margin of `24px` between the advertising and recommended news sections and the `article` corresponding to the news.
