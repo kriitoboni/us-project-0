@@ -14,7 +14,7 @@ March 21/23, depending on which group you are in.
 2. Each group will have to layout a news article (as if it were the page of an online newspaper), creating its content (title, paragraph, images, etc.) based on 3 *random* words that will be assigned to them. .
 3. Research [MDN](https://developer.mozilla.org/en-US/) about tags you don't know about.
 4. The document **must** include the tags listed in the [structure](#site-structure) below.
-5. It is recommended to get inspiration and get ideas from news sites and real articles, for example [this](https://www.lanacion.com.ar/buenos-aires/los-portenos-eligieron-luccianos-como-mejor- ice cream shop-nid2229133).
+5. It is recommended to get inspiration and get ideas from news sites and real articles, for example [this](https://www.lanacion.com.ar/buenos-aires/los-portenos-eligieron-luccianos-como-mejor-heladeria-nid2229133/).
 6. To perform this exercise, you will have to [fork](https://help.github.com/en/articles/fork-a-repo) this repository and in *your new copy*, add an `index.html file ` containing the solution.
 
 ### Site structure
